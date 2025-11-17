@@ -1,0 +1,114 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url(https://images.unsplash.com/photo-1549880181-56a44cf4a9a8) no-repeat center center fixed;
+      background-size: cover;
+    }
+.card {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.card:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}.card {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.card:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-bold" href="#">Art Gallery</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Natureart.html">Nature Arts</a></li>
+          <li class="nav-item"><a class="nav-link" href="photography.html">photography</a></li>
+          <li class="nav-item"><a class="nav-link" href="space-scifi.html">Sapce&Sci-fi</a></li>
+          <li class="nav-item"><a class="nav-link" href="culturalart.html">Cultural Arts</a></li>
+          <li class="nav-item"><a class="nav-link" href="rareanimals.html">Rare Animals</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class=" text-white text-center d-flex align-items-center justify-content-center">
+    <div>
+      <h1 class="display-4 fw-bold">Welcome to the Art Gallery</h1>
+      <p class="lead">Explore the beauty of nature through captivating visuals, sounds, and stories.</p>
+      <a href="#categories" class="btn btn-light btn-lg mt-3">Explore Now</a>
+    </div>
+  </section>
+  <section id="categories" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Explore Categories</h2>
+      <div class="row text-center g-4">
+        <div class="col-md-3">
+          <div class="card shadow-lg">
+            <img src="./images/Art1.jpg" class="card-img-top" alt="Nature Art">
+            <div class="card-body">
+              <h5 class="card-title">Nature Arts</h5>
+              <a href="Natureart.html" class="btn btn-dark">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-lg">
+            <img src="https://imgs.search.brave.com/fk4XlotuQJdmvKrM5EPFwcV67ioj8pCJxucITATabHs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcyNTk3/NTEuanBn" class="card-img-top" alt="Animals">
+            <div class="card-body">
+              <h5 class="card-title">Photography</h5>
+              <a href="photography.html" class="btn btn-dark">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-lg">
+            <img src="./images/space.jpg" class="card-img-top" alt="Sea Animals">
+            <div class="card-body">
+              <h5 class="card-title">Space & sci-fi</h5>
+              <a href="sea-animals.html" class="btn btn-dark">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-lg">
+            <img src="https://imgs.search.brave.com/wJIsx4MwJHGZJSBIwEhiW7frg4B3wQRBr7RFq521lXk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvNGst/ZmlzaC14bThtaWc5/MXk5N3M2ODBjLmpw/Zw" class="card-img-top" alt="Fishes">
+            <div class="card-body">
+              <h5 class="card-title">Fishes</h5>
+              <a href="fishes.html" class="btn btn-dark">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center bg-dark text-light py-3">
+    &copy; 2025 Art Gallery 
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
